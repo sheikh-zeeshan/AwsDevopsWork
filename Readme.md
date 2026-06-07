@@ -36,3 +36,10 @@ git remote add origin https://github.com/sheikh-zeeshan/AwsDevopsWork.git
 
 git push -u origin main
 
+
+-----
+Create a new branch -> git checkout -b dev
+
+add and commit in it -> git push -u origin dev
+
+merge branch in main
