@@ -1,0 +1,12 @@
+Main/ master -> long lived branch with production ready code
+
+dev/ develop -> long lived branch for active development
+
+feature -> development of new feature -> merged into dev/develop
+
+bugfix -> for fixation of a bug -> merged into dev/develop
+
+hotfix -> urgent fix in production -> merged into release -> then cherry picked into dev/develop
+
+release -> for production release -> 
+
