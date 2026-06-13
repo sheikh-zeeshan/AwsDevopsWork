@@ -1,0 +1,73 @@
+
+to start editing in wim -> press in
+to quit : press ESC , press :wq , Enter
+
+---Commands
+    1  sudo apt-get update
+    2  sudo apt-get install nginx
+    3  sudo systemctl status nginx
+    4  git clone https://github.com/sheikh-zeeshan/AwsDevopsWork.git
+   10  sudo cp index.htmk /var44/www44/44html
+   12  sudo cp index.html /var/www/html
+   19  ls
+   20  ls -al   -> all files
+   21  ls -l    -> non hidden files
+        rm -r demo_dir -> remove directory
+         less /var/log/syslog -> view logs page by page - press q to quit
+         head -n 10 /var/log/syslog -> first ten line of syslog
+        tail -n 10 /var/log/syslog -> last ten lines of syslog
+        tail -f var/log/syslog -> real time file monitoring of syslog -> ctrl + c to quit
+        journalctl -f -> system monitoring
+        cp source.txt destination.txt - overwrite destination file with source file contents
+        cp fileName directoryName -> copy file
+        mv fileName directoryName -> move file
+        
+        sudo adduser umair
+        cat /etc/passwd
+        gep 'umair' /etc/passwd
+
+        sudo groupadd devops_team
+        getent group devops_team
+        grep devops_team /etc/group
+
+        sudo usermod -aG devops_team umair -> add user to group
+        groups umair
+
+        sudo -i -> switch to root
+         sudo chown umair myfile1.txt_> change owner of file to umair
+        
+         sudo chown umair:devops_team cloud
+
+
+        ---------------------
+        - rwx rwx rwx
+        - d - l
+        - user
+        - group
+        - other
+
+
+        ----------------
+
+
+
+
+------ 
+github cli
+
+commit and PR via cli
+
+git status
+git commit -m "files updated"
+git push origin main
+
+gh pr create --tile "files updated" --body "update gitignore or general Note"
+
+--approve current branch
+gh pr review --approve
+
+gh pr review 123 --approve --> pr by number
+
+gh pr re view https://github.com --approve --> pr via url
+
+gh pr 123 --approve -b "code looks great"  --> PR with approval msg
