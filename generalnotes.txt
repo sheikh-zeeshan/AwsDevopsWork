@@ -71,3 +71,9 @@ gh pr review 123 --approve --> pr by number
 gh pr re view https://github.com --approve --> pr via url
 
 gh pr 123 --approve -b "code looks great"  --> PR with approval msg
+
+
+----
+creating new branch -> git checkout -b newbranch
+
+git push -u origin newbranch
